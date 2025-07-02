@@ -1,0 +1,109 @@
+/* style.css */
+body {
+    background: #f2f4f3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('assets/bg_masjid.jpg'); /* opsional: tambahkan gambar latar bertema islami */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background: #157347 !important;
+}
+
+.navbar-brand, .nav-link, h1, h2, h3, h4, h5 {
+    font-family: 'Amiri', serif;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background: white;
+}
+
+.card h2 {
+    color: #157347;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-secondary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+footer {
+    background: #157347;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    border-top: 3px solid #0d6efd;
+}
+
+.quiz-container {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Untuk halaman hasil grafik */
+canvas {
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Custom tambahan */
+h1, h2, h3 {
+    color: #0d6efd;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #157347;
+}
+
+/* Islamic feel */
+body {
+    background-image: url('assets/bg-pattern-islamic.png');
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1::before {
+    content: "\f57d"; /* Icon moon-star (FontAwesome) */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #157347;
+}
+
+.quiz-container {
+    max-width: 700px; /* Lebar maksimal */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 30px 40px;
+    margin-top: 40px;
+    /* Agar kotak berada di tengah, margin kiri dan kanan auto */
+    margin-left: auto;
+    margin-right: auto;
+}
